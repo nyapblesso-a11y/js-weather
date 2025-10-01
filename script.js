@@ -26,12 +26,12 @@ async function checkWeather (city) {
       weatherIcon.src = './weather-images/rain.png' 
     } else if (data.weather[0].main === 'Drizzle') {
       weatherIcon.src = './weather-images/drizzle.png' 
-    }  else if (data.weather[0].main === 'Mist') {
+    } else if (data.weather[0].main === 'Mist') {
       weatherIcon.src = './weather-images/mist.png' 
     }
     document.querySelector('.weather').style.display = 'block'
     document.querySelector('.error').style.display = 'none'
-   }
+  }
 }
 searchBnt.addEventListener('click', () => {
   checkWeather(searchBox.value)
