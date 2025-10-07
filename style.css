@@ -10,8 +10,8 @@ body {
 }
 
 .card {
-  width: 90%;
-  max-width: 470px;
+  width: 100%;
+  max-width: 500px;
   background: linear-gradient(135deg, #363434, #726f85);
   color: #fff;
   margin: 100px auto 0;
@@ -25,6 +25,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .search input {
@@ -37,7 +38,7 @@ body {
   border-radius: 60px;
   flex: 1;
   margin-right: 16px;
-  font-size: 18px;
+  font-size: 25px;
 }
 
 .search button {
@@ -89,8 +90,7 @@ body {
   text-align: left;
 }
 
-.humidity,
-.wind {
+.humidity, .wind {
   font-size: 28px;
   margin-top: -6px;
 }
