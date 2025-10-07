@@ -1,4 +1,3 @@
-
 const apiUrl = 'https://api.openweathermap.org/data/2.5/weather?&appid=4a3f830df652afb9e7dafb98a642ffd6&units=metric&q='
 
 const searchBox = document.querySelector('.search input')
